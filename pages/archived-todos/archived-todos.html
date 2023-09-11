@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Archived Todos</ion-title>
+    
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-list *ngFor="let todo of archivedTodos">
+    <ion-item>
+      {{todo}}
+    </ion-item>
+  </ion-list>
+
+</ion-content>
